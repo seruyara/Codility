@@ -3,8 +3,9 @@
     as input and returns the sum of all its values.
 =end
 
+hash = { a: 1, b: 2, c: 3, d: 4 }
 def sum_hash_values(hash)
-    # Your code here
+    hash.values.sum
 end
   
 # Example usage

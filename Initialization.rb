@@ -7,10 +7,11 @@ class Person
     attr_accessor :name, :age
   
     def initialize(name, age)
-      # Your code here
+      @name = name
+      @age = age
     end
 end
-  
+
 # Example usage
 person = Person.new("John Doe", 25)
 puts person.name # Expected output: "John Doe"

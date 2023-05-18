@@ -3,8 +3,10 @@
     and returns a new array with the elements reversed.
 =end
 
+arr = [1, 2, 3, 4, 5]
+
 def reverse_array(arr)
-    # Your code here
+    arr.reverse 
 end
   
 # Example usage
